@@ -6,7 +6,7 @@ Copy SSL certs and keys to remote host by simply providing one variable.
 Installation
 --------------
 
-`ansible-galaxy install palkan.ssl_certs`
+`ansible-galaxy install teachbase-ansible.ssl_certs`
 
 Role Variables
 --------------
@@ -19,4 +19,4 @@ Example Playbook
 ----------------
     - hosts: servers
       roles:
-         - { role: palkan.ssl_certs }
+         - { role: teachbase-ansible.ssl_certs }
